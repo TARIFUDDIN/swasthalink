@@ -52,6 +52,18 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 
 # Optional: Google AI API (for future features)
 GOOGLE_AI_API_KEY="your_google_ai_key"
+
+# Use this connection string format for Neon
+DATABASE_URL="postgresql://neondb_owner:npg_5wz6nABGjWqM@ep-damp-waterfall-adoxtcu7-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&connection_limit=5"
+
+# Keep your other variables the same
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_c3RpcnJpbmctcGFyYWtlZXQtODEuY2xlcmsuYWNjb3VudHMuZGV2JA
+CLERK_SECRET_KEY=sk_test_hNJhMFnyTHjHAqzzwHexqYYa5nKep2k4HKBDtEFCmW
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
+GOOGLE_AI_API_KEY=AIzaSyBV5CxrONQeT3cnNH_EcuzJN60FVorIQVo
 Step 4: Get Your Free API Keys
 🔐 Clerk Authentication (Free)
 Go to https://clerk.dev
